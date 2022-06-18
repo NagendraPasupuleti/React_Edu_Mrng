@@ -1,0 +1,13 @@
+JSON:-
+> JavaScript object notation.
+> It is data format.
+> It is way to represent the data.
+
+Npm:-
+It is a website that contains lot of packages 
+
+Package.json:-
+> It is  Entry point to the app
+> It contains scripts, scripts for start,build,test
+> meta data (name,description,version)
+ 

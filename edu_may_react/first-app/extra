@@ -1,0 +1,289 @@
+https://code.visualstudio.com/ > install
+https://nodejs.org/en/ (install)
+https://github.com/( create account)
+https://git-scm.com/downloads (install)
+https://www.postman.com/ (install)
+
+https://github.com/Aakashdeveloper (follow)
+
+(add to chrome)
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+//Extensions
+> TabNine
+> vscode-icons
+> git history
+> git Lens
+> spellCheck
+> eslint
+
+//////////
+String
+Number
+Boolean
+///////////////////////////
+JSON> JavaScript Object notation
+> Way the represent the data
+[
+    {
+        "name":"John",
+        "class":"UI",
+        "size":"10"
+    },
+    {
+        "name":"Ankit",
+        "class":"React",
+        "storage:"128GB"
+    }
+]
+//////////
+SPA> Single Page Application
+/////////
+React> React is frontend lib/framework 
+which help to build spa using component base structure
+
+NPM > Node Package Manager (1,968,086)
+///////////
+Package.json
+> Entry point point the app
+> scripts > start build test
+> meta data (name,description,version)
+> all the packages we require
+
+///////////////
+Step to generate package.json
+////////////////
+**NodeJS must be install in system
+> open cmd/terminal
+> type "npm init"
+> answer all questions
+> type "yes"
+
+///////////////
+Step to install packages
+////////////////
+**NodeJS must be install in system
+> open cmd/terminal
+> npm i packagename
+
+
+react > main package
+react-script> help to run application
+react-dom > help to render the content on screen
+
+////////////Component/////////////
+# Functional
+> Dumb Component
+> They only use for display purpose
+> They cannot maintain state as well no api call
+> Light in weight
+
+# ClassComponent
+> Logical Component
+> They can be use for display purpose as well as logic and api callings
+> They can maintain state
+> Heavy as compare to function
+
+# HooksComponent
+
+JSX > JavaScript XML
+
+(ecma Script)
+///es5
+function add(a,b){
+    return a+b
+}
+add(1,3)
+4
+///es6
+let add = (a,b) => {return a+b} 
+add(1,3)
+4
+
+function add(a,b){
+    let add = [a,b]
+    return add
+}
+
+add(2,5)
+
+[2,5]
+
+
+function add(a,b){
+    return a,b
+}
+add(2,5)
+5
+
+//////////
+#state
+> It act like local variable
+> Each component can have its own state (scope of state is in same component)
+> we can update the value of state (mutable)
+> Any data interaction will happen through state only
+#props
+> Help to transfer the data between nested components
+> we cannot update the value of props (immutable)
+
+constructor > it is use for declare and always called first in the class
+
+
+
+////////JAVASCRIPT////////////////
+> map
+> filter
+> indexof
+
+var a = [-1,0,1,2,3]
+a.map((data) => {return data*2})
+[0,2,4,6]
+
+var a = [-1,0,1,2,3]
+a.filter((data) => {return data>2})
+[3]
+
+
+a.filter((data) => {return data*2})
+[-1,1,2,3]
+
+
+10 == 10
+
+map
+> always return same length of output array as input 
+> this help to modify the values of array
+
+filter
+> may or may not return same length of output array as input 
+> help to filter out the values
+> only return those value for which condition/output is true
+
+var a = ["Delhi","Amsterdam","Venice","Helsinki"]
+a.indexOf('Delhi')
+0
+a.indexOf('Helsinki')
+3
+a.indexOf('Paris')
+-1
+a.indexOf('Mumbai')
+-1
+
+
+Parent => Child  (props)
+Child => Parent  (Props with function)
+
+//parent (we right the function)
+function add(a,b){
+    return a+b
+}
+
+//child (we call the function)
+add(1,2)
+
+////////Router////
+v5 
+v6
+
+params
+> thing pass after /
+> we use to send limited data
+> it is complusory to define and pass
+queryparams
+> pass after ?
+> no need to define
+> use for passing more than one value
+
+
+>>>>Default Props<<<<<<
+> history (for redirection)
+> location (for query params)
+> match (for params)
+
+let a = "?page=1"
+undefined
+a.split('=')
+(2) ['?page', '1']
+a.split('=')[1]
+'1'
+let a = "?brand=apple"
+undefined
+a.split('=')[1]
+'apple'
+a.split('=')
+(2) ['?brand', 'apple']
+a.split('=')[1]
+'apple'
+
+let a = "?brand=apple&modal=11"
+undefined
+a.split('&')
+(2) ['?brand=apple', 'modal=11']
+a.split('&')[1]
+'modal=11'
+a.split('&')[1].split('=')
+(2) ['modal', '11']
+a.split('&')[1].split('=')[1]
+'11'
+a.split('&')[0].split('=')[1]
+'apple'
+
+
+(get) restaurants>         https://zomatoajulypi.herokuapp.com/restaurant
+(get) restwrtcity >        https://zomatoajulypi.herokuapp.com/restaurant?stateId=1
+(get) hoteldetails >       http://zomatoajulypi.herokuapp.com/details/1
+(get) quickSearch>         https://zomatoajulypi.herokuapp.com/quicksearch
+(get) onbasisofMeal >      https://zomatoajulypi.herokuapp.com/restaurant?mealtype_id=
+
+(get) cuisinefilter >      https://zomatoajulypi.herokuapp.com/filter/4?cuisine=1
+
+(get) costfilter >         https://zomatoajulypi.herokuapp.com/filter/1?hcost=1000&lcost=500
+
+(get) cityname >           https://zomatoajulypi.herokuapp.com/location
+(get) menu >               https://zomatoajulypi.herokuapp.com/menu/1
+
+(post) orderspage >        http://zomatoajulypi.herokuapp.com/menuItem
+                           body [1,4,5]
+(get) allorder>            
+(post)placeOrder >         Dummy api
+
+https://developerpayment.herokuapp.com/paynow
+
+
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+var b = `my age is ${a}`
+"my age is 10"
+
+dummy api
+> npx json-server --watch data.json --port 8700
+
+
+Home > action > movieReducer > storefile > index > mapStateToProps(home)
+
+npm i -g create-react-native-app
+
+npx i create-react-native-app appname
+
+/////////////
+/******GetAllUser*****/
+(GET)> https://developerjwt.herokuapp.com/api/auth/users
+
+/******Register*****/
+(POST)> https://developerjwt.herokuapp.com/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","phone":343432,role?":"user"}
+
+/******Login*****/
+(POST) => https://developerjwt.herokuapp.com/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,token:'dgsdg'}
+
+/******UserInfo*****/
+(GET) => https://developerjwt.herokuapp.com/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
+
+
+docker build . -t imagefile
+docker run -p 3000:8700 imagefile

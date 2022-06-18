@@ -1,33 +1,23 @@
 import React, { Fragment } from 'react';
+import "./header.css"
 class Header extends React.Component {
 constructor(props) {   
     super(props); 
-    this.state = {}
+    this.state = {
+        title:"Developer Funnel",
+        keyword:"user text here"
+    }
 
 }  
 
     render(){
-        const myStyles={
-            header:{
-                backgroundColor: "blue"
-            },
-
-            div:{
-                textAlign: "center",
-                fontSize: "25px",
-                color:"white"
-
-            }
-            
-
-        }
         return(
             <Fragment>
-                <header style={myStyles.header}>
-                    <div style={myStyles.div} >Developer Funnel</div>
+                <header >
+                    <div className="logo"> {this.state.title}</div>
                     <center>
                     <input type="text"/>
-                    <div style={{fontSize:"20px",color:"white"}}>user text here</div>
+                    <div style={{fontSize:"20px",color:"white"}}>{this.state.keyword}</div>
                     </center>
                  </header>
             </Fragment>

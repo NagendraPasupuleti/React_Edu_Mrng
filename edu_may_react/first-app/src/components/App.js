@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
+import "./../../src/"
 
 
 
@@ -10,7 +11,7 @@ return(
     <div>
         <Header/><hr/>
         <Home/><hr/>
-        <Footer/>
+        <Footer year="2022"/>
 
       
 

@@ -6,13 +6,7 @@ let Routing = ()=>{
 return(
     <div>
         <BrowserRouter>
-        {/* <Route exact path="/users" component={userData}/>
-        <Route exact path="/users" component={} */
-        
-        
-        }
-
-       
+         <Route exact path="/users" component={userData}/>
         </BrowserRouter>
 
     </div>

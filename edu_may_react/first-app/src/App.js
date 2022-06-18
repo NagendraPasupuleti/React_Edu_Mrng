@@ -10,7 +10,7 @@ return(
 
     <div>
         {/* <TextInput/> */}
-       {/* <Routing/> */}
+       <Routing/>
        <UserConsole/>
 
     </div>

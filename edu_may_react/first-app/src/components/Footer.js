@@ -3,11 +3,11 @@ import React from 'react';
 let Footer = ()=>{ 
     
     return(
-        <div>
+        <React.Fragment>
             <center>
                <h2> <center>&copy; Copy Rights Reserved 2022</center></h2>
             </center>
-        </div>
+        </React.Fragment>
 
     )
 

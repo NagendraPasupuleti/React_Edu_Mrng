@@ -10,9 +10,12 @@ const Routing=() =>{
     return(
         <BrowserRouter>
         <Header/>
+        <div className='container-fluid'>
         <Route exact path="/" component={Home}/>
         <Route path="/profile" component={Profile} />
         <Route path="/product" component={Product} />
+
+        </div>
         <Footer/>
         </BrowserRouter>
     )

@@ -6,12 +6,18 @@ const  Header=()=>{
 
     return(
         <div>
-            <center>Developer Funnel</center>
-            <center>
-        <Link to="/"> Home</Link>
-        <Link to="/profile"> Profile</Link>
-        <Link to="/product">Products</Link>
-             </center>
+            <nav className="navbar navbar-inverse">
+            <div className="container-fluid">
+            <div className="navbar-header">
+            <Link className="navbar-brand" to="/">Developer Funnel</Link>
+            </div>
+            <ul className="nav navbar-nav">
+            <li ><Link to="/">Home</Link></li>
+            <li><Link  to="/product" >Products</Link></li>
+            <li><Link to="/profile">Profile</Link></li>
+            </ul>
+        </div>
+        </nav>
             <hr/>
         </div>
     )

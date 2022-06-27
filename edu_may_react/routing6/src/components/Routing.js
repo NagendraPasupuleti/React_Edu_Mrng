@@ -18,6 +18,13 @@ const Routing=() =>{
                 <Route  path="products" element={<Product/>} />
                 <Route path="products/:item" element={<ProductDetail/>} />
                 <Route  path="profile" element={<Profile/>} />
+                <Route path="*" element={
+                    <div>
+                        <center>
+                            <h3>Page not found</h3>
+                        </center>
+                    </div>
+                }/>
             </Route>
         </Routes>
         </div>

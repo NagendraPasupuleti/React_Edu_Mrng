@@ -25,7 +25,7 @@ const  Product=(props)=>{
                     <h2>Mobile</h2>
                     <Link to="/products/mobile?page=1" className="btn btn-primary btn-xs">Mobile</Link>
                     <h2>Cloths</h2>
-                    <Link to="/products/cloths?page=2" className="btn btn-primary btn-xssuccess btn-xs">Cloths</Link>
+                    <Link to="/products/cloths?page=2" className="btn btn-primary btn-xs-success btn-xs">Cloths</Link>
                     <h2>Foot wares</h2>
                     <Link to="/products/footwares?page=3" className="btn btn-info btn-xs">Footwares</Link>
                 </div>

@@ -1,0 +1,14 @@
+footer{
+height:130px;
+width: 100%;
+background-color: blue;
+color:white;
+}
+.footDiv{
+    height:60px;
+    width: 26.8%;
+    float: right;
+}
+ul{
+    list-style-type: none;
+}

@@ -1,0 +1,52 @@
+#search{
+height:400px;
+width:100%;
+background-image: url("https://media.istockphoto.com/photos/assorted-indian-recipes-food-various-picture-id922783734");
+background-repeat: no-repeat;
+background-size: 100% 400px;
+
+
+}
+#logo{
+    height:130px;
+    width:130px;
+    font-size: 90px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 1%;
+}
+#logo>span{
+margin-left:18%;
+margin-top: 35%;
+color: blueviolet;
+}
+#heading{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    margin-top: 10%;
+    margin-left:28%;
+
+}
+#dropdown{
+    width: 50%;
+    height:60px;
+    margin-left:28%;
+    margin-top: 15%;
+    position: absolute;
+}
+select{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+
+    margin-left:10px !important;
+    outline: none;
+    border: 2px solid brown;
+    border-radius: 10px;
+}
+#restaurants{
+    width:59%;
+}

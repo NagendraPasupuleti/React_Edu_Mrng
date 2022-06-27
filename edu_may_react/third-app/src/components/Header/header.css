@@ -1,0 +1,20 @@
+header{
+    height:60px;
+    width:100%;
+    /* border:5px solid red; */
+    background-color:blue;
+}
+#brand{
+    font-size: 20px;
+    color:white;
+    margin-top:1%;
+    margin-left:2%;
+   float:left;
+}
+#social{
+    float: right;
+    margin-right: 3%;
+}
+.socialImg{
+    height:50px
+}
